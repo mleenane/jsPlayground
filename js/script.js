@@ -34,6 +34,8 @@ const gameOne = {
     k: 88,
 };
 
+
+
 const gameTwo = {
     d: 108,
     k: 91,
@@ -43,6 +45,7 @@ const gameThree = {
     d: 89,
     k: 110,
 }
+
 
 let avgDolphin = avgEdit(gameOne.d, gameTwo.d, gameThree.d);
 let avgKoala = avgEdit(gameOne.k, gameTwo.k, gameThree.k);
