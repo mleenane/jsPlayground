@@ -67,4 +67,13 @@ console.log(`The bill was ${bill}, and the tip was ${tip(bill)}, and the total v
 
 */
 
+let age = 18;
+const ageDrink = 18; 
+
+if (ageDrink){
+    console.log(`Chug, Chug, Chug`);
+} else {
+    console.log(`I'm sorry, but I'm afraid I'm going to have to ask you to leave.`);
+}
+
 
