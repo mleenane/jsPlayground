@@ -109,9 +109,12 @@ const me = {
     }
 }
 // Maybe not best to use arrows in objects.
-*/
+
 
 
 // ARROW FUNCTIONS
-
+let arro = birthYear => 2023 - birthYear; 
+let aro2 = (birthYear, currentYear) => birthYear - currentYear;
+// arrow functions do not support the this keyword (perhaps this in arrows refers to the window object not the object)
+*/
 
