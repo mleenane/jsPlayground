@@ -1,3 +1,4 @@
+"use strict"
 /*
 const bmi = function (weight, tall){
     return weight / tall*2;
@@ -38,7 +39,7 @@ const gameTwo = {
     d: 108,
     k: 91,
 };
-git
+
 const gameThree = {
     d: 89,
     k: 110,
@@ -74,9 +75,7 @@ if (ageDrink){
     console.log(`I'm sorry, but I'm afraid I'm going to have to ask you to leave.`);
 }
 
-*/
 
-/*
 // FUNCTION TYPES
 // ANONYMOUS FUNCTIONS
 function() {
@@ -100,7 +99,7 @@ function Person(n){
 }
 
 // OBJECT METHODS
-const me = {
+const me =2
     sayHello: function{
         return this
     },
@@ -116,5 +115,15 @@ const me = {
 let arro = birthYear => 2023 - birthYear; 
 let aro2 = (birthYear, currentYear) => birthYear - currentYear;
 // arrow functions do not support the this keyword (perhaps this in arrows refers to the window object not the object)
+
 */
+
+const country = "Ireland";
+const continent = "Europe";
+let population = 6;
+const isIsland = true;
+const language = "Irish";
+language = "English";
+let NI = population/2;
+console.log(isIsland, NI, language, country, continent, population);
 
