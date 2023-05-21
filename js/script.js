@@ -134,4 +134,11 @@ console.log(
   */
 
 
+let describeCountry = function (country, population, capitalCity){
+    return `${country} has ${population} million people and its capital city is ${capitalCity}`;
+};
 
+const descIreland = describeCountry("Ireland", 6, "Dublin");
+const descEngland = describeCountry("ENgland", 36, "London");
+console.log(descIreland);
+console.log(descEngland);
