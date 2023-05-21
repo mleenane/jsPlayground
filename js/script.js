@@ -1,4 +1,5 @@
-
+"use strict";
+/*
 const bmi = function (weight, tall){
     return weight / tall*2;
 };
@@ -68,6 +69,69 @@ const tip = function(bill) {
 } 
 
 console.log(`The bill was ${bill}, and the tip was ${tip(bill)}, and the total value ${bill + tip(bill)}`);
+
+
+
+let country = 'Portugal'; 
+let continent = 'Europe'; 
+let population = 10;
+let isIsland = false;
+let language = "Portuguese";
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+
+if(population > 10){
+    console.log(`Big country`);
+} else{
+    console.log(`Small Country`);
+}
+
+console.log(5 * '9');
+console.log(5 == '5');
+console.log(5 === '5');
+console.log(5+"5");
+console.log(5/"5");
+console.log(20%"3");
+console.log(5*(20/4));
+console.log("123" > 57);
+
+
+const numNeighbours = prompt(
+    'How many neighbour countries does your country have?',
+);
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border!');
+  } else if (numNeighbours > 1) {
+    console.log('More than 1 border');
+  } else {
+    console.log('No borders');
+  }
+
+switch (language) {
+    case 'Irish':
+        console.log(`No`);
+        break;
+    case 'Portuguese':
+        console.log(`Yes Portuguese the the lang`);
+        break;
+        default:
+        console.log(`I don't know`);
+}
+
+  if (language === 'English' && population < 50 && !isIsland)
+{
+  console.log(`You should live in ${country} :)`);
+} else {
+  console.log(`${country} does not meet your criteria :(`);
+}
+
+console.log(
+    `${country}'s population is ${population > 33 ? 'above' :
+    'below'} average`,
+  );
+  */
 
 
 
