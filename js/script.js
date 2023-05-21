@@ -16,6 +16,7 @@ let john = {
 const markBMI = bmi(mark.weight, mark.tall);
 const johnBMI = bmi(john.weight, john.tall);
 
+  
 let markHigherBMI = markBMI > johnBMI;
 
 console.log(markHigherBMI ? `Mark is fatter!` : `John is fatter!`);
