@@ -1,4 +1,4 @@
-/*
+
 const bmi = function (weight, tall){
     return weight / tall*2;
 };
@@ -41,7 +41,7 @@ const gameTwo = {
     d: 108,
     k: 91,
 };
-git
+
 const gameThree = {
     d: 89,
     k: 110,
@@ -69,56 +69,5 @@ const tip = function(bill) {
 
 console.log(`The bill was ${bill}, and the tip was ${tip(bill)}, and the total value ${bill + tip(bill)}`);
 
-let age = 18;
-const ageDrink = 18; 
 
-if (ageDrink){
-    console.log(`Chug, Chug, Chug`);
-} else {
-    console.log(`I'm sorry, but I'm afraid I'm going to have to ask you to leave.`);
-}
-
-*/
-
-/*
-// FUNCTION TYPES
-// ANONYMOUS FUNCTIONS
-function() {
-    return 'hello'
-} 
-// These are usually asigned to a variable as function expressions
-
-// CALLBACK FUNCTION
-setTimeout(function(){
-    return 'hello'
-}, 1000)
-// Pass into other functions as a parameter - which is an anonymous function too.
-
-
-// NAMED FUNCTIONS
-function sayHello() {
-    return{}
-}
-function Person(n){
-    this.name = n
-}
-
-// OBJECT METHODS
-const me = {
-    sayHello: function{
-        return this
-    },
-    sayHello2(){
-        return this
-    }
-}
-// Maybe not best to use arrows in objects.
-
-
-
-// ARROW FUNCTIONS
-let arro = birthYear => 2023 - birthYear; 
-let aro2 = (birthYear, currentYear) => birthYear - currentYear;
-// arrow functions do not support the this keyword (perhaps this in arrows refers to the window object not the object)
-*/
 
