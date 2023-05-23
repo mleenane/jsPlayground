@@ -123,7 +123,7 @@ const continent = "Europe";
 let population = 6;
 const isIsland = true;
 const language = "Irish";
-language = "English";
 let NI = population/2;
+NI+=1;
 console.log(isIsland, NI, language, country, continent, population);
 
