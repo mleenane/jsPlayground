@@ -118,12 +118,29 @@ let aro2 = (birthYear, currentYear) => birthYear - currentYear;
 
 */
 
-const country = "Ireland";
+const ireland = "Ireland";
 const continent = "Europe";
-let population = 6;
+let IrlPop = 6;
+let globePop = 7900;
 const isIsland = true;
 const language = "Irish";
-let NI = population/2;
-NI+=1;
-console.log(isIsland, NI, language, country, continent, population);
+const finland = 6;
+
+
+
+
+let percentagePopulation = function(population, globePop){
+    return globePop / population * 100;
+}
+
+
+let describePopulation = function (country, population, globePop){
+    let percentPop = percentagePopulation(population, globePop);
+    return `${country} has ${population} which is about ${percentPop} of the world`;
+}
+
+console.log(describePopulation(ireland, IrlPop, globePop));
+
+
+
 
