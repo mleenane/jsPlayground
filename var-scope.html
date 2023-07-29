@@ -13,7 +13,8 @@
 			<script>
 				// global scope
 				var a = "Hello";
-				
+				let b = "World"; 
+				let c = "Person";
 				function greet(planet) {
 					// local function scope
 					let b = "World"; 
@@ -25,8 +26,7 @@
 						console.log(`${a} ${b} ${c}`);
 					}
 				};
-				greet();
-				confirm(a, b, c);
+				confirm(a);
 				confirm(b);		
 				confirm(c);		
 			</script>	
