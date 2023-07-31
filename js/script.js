@@ -1,5 +1,3 @@
-"use strict";
-/*
 const bmi = function (weight, tall){
     return weight / tall*2;
 };
@@ -87,46 +85,6 @@ if(population > 10){
     console.log(`Small Country`);
 }
 
-console.log(5 * '9');
-console.log(5 == '5');
-console.log(5 === '5');
-console.log(5+"5");
-console.log(5/"5");
-console.log(20%"3");
-console.log(5*(20/4));
-console.log("123" > 57);
-
-
-const numNeighbours = prompt(
-    'How many neighbour countries does your country have?',
-);
-
-if (numNeighbours === 1) {
-    console.log('Only 1 border!');
-  } else if (numNeighbours > 1) {
-    console.log('More than 1 border');
-  } else {
-    console.log('No borders');
-  }
-
-switch (language) {
-    case 'Irish':
-        console.log(`No`);
-        break;
-    case 'Portuguese':
-        console.log(`Yes Portuguese the the lang`);
-        break;
-        default:
-        console.log(`I don't know`);
-}
-
-  if (language === 'English' && population < 50 && !isIsland)
-{
-  console.log(`You should live in ${country} :)`);
-} else {
-  console.log(`${country} does not meet your criteria :(`);
-}
-
 console.log(
     `${country}'s population is ${population > 33 ? 'above' :
     'below'} average`,
@@ -138,29 +96,7 @@ let describeCountry = function (country, population, capitalCity){
     return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 };
 
-const descIreland = describeCountry("Ireland", 6, "Dublin");
-const descEngland = describeCountry("England", 36, "London");
-console.log(descIreland);
-console.log(descEngland);
-console.log(describeCountry("Italy", 45, "Rome"));
-
-// Function Declaration
-function percentageOfWorld1(population){
-    return (population / 7900) * 100;
-};
-
 //Function Expression
 const percentageOfWorld2 = function (population) { 
     return (population / 7900) * 100;
 };
-
-const percPortugal1 = percentageOfWorld1(10); 
-const percChina1 = percentageOfWorld1(1441); 
-const percUSA1 = percentageOfWorld1(332); 
-console.log(percPortugal1, percChina1, percUSA1);
-
-const percentageOfWorld3 = population => (population / 7900) * 100;
-const percPortugal3 = percentageOfWorld3(10); 
-const percChina3 = percentageOfWorld3(1441); 
-const percUSA3 = percentageOfWorld3(332); 
-console.log(percPortugal3, percChina3, percUSA3);
