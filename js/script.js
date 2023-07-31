@@ -1,4 +1,3 @@
-
 const bmi = function (weight, tall){
     return weight / tall*2;
 };
@@ -73,7 +72,6 @@ if (ageDrink){
 } else {
     console.log(`I'm sorry, but I'm afraid I'm going to have to ask you to leave.`);
 }
-/*
 // FUNCTION TYPES
 // ANONYMOUS FUNCTIONS
 function() {
@@ -96,14 +94,66 @@ function Person(n){
     this.name = n
 }
 
-*/
-
-
 
 
 // ARROW FUNCTIONS
 let arro = birthYear => 2023 - birthYear; 
-let aro2 = (birthYear, currentYear) => birthYear - currentYear;
-// This in arrows refers to the window object not the object
+let aro2 = (birthYear, currentYear) => birthYear - currentYear;f
+
+const ireland = "Ireland";
+const continent = "Europe";
+let IrlPop = 6;
+let globePop = 7900;
+const isIsland = true;
+const language = "Irish";
+const finland = 6;
 
 
+
+
+let percentagePopulation = function(population, globePop){
+    return globePop / population * 100;
+}
+
+
+let describePopulation = function (country, population, globePop){
+    let percentPop = percentagePopulation(population, globePop);
+    return `${country} has ${population} which is about ${percentPop} of the world`;
+}
+
+console.log(describePopulation(ireland, IrlPop, globePop));
+
+//ARRAYS --------------------------------------------------------/
+
+//Literal Syntax
+const friends = ["Mike", "James", "Paul"];
+console.log(friends);
+console.log(friends[friends.length-1])
+
+const years = new Array(1991, 1984, 2008, 2028);
+
+const calcAge = function(birthYears) {
+    const d = new Date();
+    let year = d.getFullYear();
+    return year - birthYears;
+}
+
+const birthYears = [1991, 1979, 1976];
+
+console.log(calcAge(years[1]));
+
+//ARRAY Coding Challenge ------------------------------------/
+
+let calcTip = function(billVal) {
+    if(billVal >= 50 && billVal <= 300){
+        return (billVal / 100) * 15;
+    } else {
+        return (billVal / 100) * 20;
+    };
+};
+
+const bills = [125, 55, 44];
+const tips = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(bills, tips, totals);
