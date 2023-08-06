@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Object</title>
+</head>
+<body>
+	<script>
+		const martin = {
+			firstName: 'Martin',
+			lastName: 'Leenane',
+			age: new Date().getFullYear() - 1979,
+			job: 'Design',
+			friends: ['Krys', 'Stu', 'Mike'],
+			calcAge: function(){
+				return 2037 - this.age;
+			}
+		};
+		console.log(martin.calcAge);
+	</script>
+</body>
+</html>
